@@ -249,6 +249,7 @@ void plot_constellation_names(chart_config *s, cairo_page *page) {
 
     strcpy(line, SRCDIR "../data/constellations/name_places.dat");
     if (s->language == SW_LANG_FRENCH) strcpy(line, SRCDIR "../data/constellations/name_places_fr.dat");
+    else if (s->language == SW_LANG_GERMAN) strcpy(line, SRCDIR "../data/constellations/name_places_de.dat");
     file = fopen(line, "r");
     if (file == NULL) stch_fatal(__FILE__, __LINE__, "Could not open constellation name data");
 

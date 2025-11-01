@@ -349,12 +349,13 @@ int process_configuration_file_line(char *line, const char *filename, const int 
         strcpy(x->title, key_val);
         return 0;
     } else if (strcmp(key, "language") == 0) {
-        //! language - The language used for the constellation names. Either "english" or "french".
+        //! language - The language used for the constellation names. One of: "english", "french", "german".
         if (strcmp(key_val, "english") == 0) x->language = SW_LANG_ENGLISH;
         else if (strcmp(key_val, "french") == 0) x->language = SW_LANG_FRENCH;
+        else if (strcmp(key_val, "german") == 0) x->language = SW_LANG_GERMAN;
         else {
             snprintf(temp_err_string, FNAME_LENGTH,
-                     "Bad input file. language should equal 'english', or 'french'.");
+                     "Bad input file. language should equal 'english', 'french', or 'german'.");
             stch_error(temp_err_string);
             return 1;
         }

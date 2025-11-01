@@ -58,6 +58,7 @@
 // Language options
 #define SW_LANG_ENGLISH 1
 #define SW_LANG_FRENCH  2
+#define SW_LANG_GERMAN  3
 
 // Options for designs of constellation stick figures
 #define SW_STICKS_SIMPLIFIED 0
@@ -144,7 +145,7 @@ typedef struct chart_config {
     //! Boolean indicating whether to write "Right ascension" and "Declination" on the vertical/horizontal axes
     int axis_label;
 
-    //! The language used for the constellation names. Either SW_LANG_ENGLISH or SW_LANG_FRENCH
+    //! The language used for the constellation names. One of SW_LANG_ENGLISH, SW_LANG_FRENCH, SW_LANG_GERMAN
     int language;
 
     //! The right ascension of the centre of the plot, hours
