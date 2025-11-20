@@ -289,7 +289,8 @@ void plot_constellation_names(chart_config *s, cairo_page *page) {
 
             char *label = replace_at_with_space(name);
 
-            if (s->constellations_capitalise) label = string_capitalise((unsigned char *) label);
+            //In german it makes no sense to capitalise the names because of the german umlaute
+            //if (s->constellations_capitalise) label = string_capitalise((unsigned char *) label);
 
             char label_buffer[FNAME_LENGTH];
             if (show_all_label_positions) {

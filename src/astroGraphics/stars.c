@@ -737,7 +737,7 @@ double draw_magnitude_key(chart_config *s, double legend_y_pos) {
     cairo_select_font_face(s->cairo_draw, s->font_family, CAIRO_FONT_SLANT_NORMAL, CAIRO_FONT_WEIGHT_NORMAL);
 
     // Write the heading next to the magnitude key
-    const char *heading = "Magnitude scale:";
+    const char *heading = "Scheinbare Helligkeit:";
 
     cairo_set_source_rgb(s->cairo_draw, 0, 0, 0);
     cairo_set_font_size(s->cairo_draw, 3.6 * s->mm * s->font_size);

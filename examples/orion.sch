@@ -41,10 +41,11 @@ plot_galaxy_map=1
 plot_equator=1
 plot_ecliptic=0
 plot_galactic_plane=0
+language=german
 
 # Produce a default version of this star chart
 CHART
-output_filename=output/orion_default.png
+output_filename=/home/cleavr/charts.astroteam-hof.de/current/orion_default.png
 
 # Show Bayer designation
 CHART

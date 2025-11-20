@@ -794,7 +794,7 @@ double draw_dso_symbol_key(chart_config *s, const double legend_y_pos) {
 
         // Write a text label next to it
         {
-            const char *label = "Galaxy";
+            const char *label = "Galaxie";
             cairo_set_source_rgb(s->cairo_draw, 0, 0, 0);
             cairo_text_extents(s->cairo_draw, label, &extents);
             cairo_move_to(s->cairo_draw,
@@ -815,7 +815,7 @@ double draw_dso_symbol_key(chart_config *s, const double legend_y_pos) {
 
         // Write a text label next to it
         {
-            const char *label = "Bright nebula";
+            const char *label = "Nebel";
             cairo_set_source_rgb(s->cairo_draw, 0, 0, 0);
             cairo_text_extents(s->cairo_draw, label, &extents);
             cairo_move_to(s->cairo_draw,
@@ -836,7 +836,7 @@ double draw_dso_symbol_key(chart_config *s, const double legend_y_pos) {
 
         // Write a text label next to it
         {
-            const char *label = "Open cluster";
+            const char *label = "Sternhaufen";
             cairo_set_source_rgb(s->cairo_draw, 0, 0, 0);
             cairo_text_extents(s->cairo_draw, label, &extents);
             cairo_move_to(s->cairo_draw,
@@ -857,7 +857,7 @@ double draw_dso_symbol_key(chart_config *s, const double legend_y_pos) {
 
         // Write a text label next to it
         {
-            const char *label = "Globular cluster";
+            const char *label = "Kugelsternhaufen";
             cairo_set_source_rgb(s->cairo_draw, 0, 0, 0);
             cairo_text_extents(s->cairo_draw, label, &extents);
             cairo_move_to(s->cairo_draw,
@@ -878,7 +878,7 @@ double draw_dso_symbol_key(chart_config *s, const double legend_y_pos) {
 
         // Write a text label next to it
         {
-            const char *label = "Planetary nebula";
+            const char *label = "Planetarischer Nebel";
             cairo_set_source_rgb(s->cairo_draw, 0, 0, 0);
             cairo_text_extents(s->cairo_draw, label, &extents);
             cairo_move_to(s->cairo_draw,

@@ -225,7 +225,7 @@ double draw_great_circle_key(chart_config *s, double legend_y_pos) {
 
     // Draw item on legend showing the colour of the equator
     if (s->plot_equator != 0) {
-        const char *label = "The Equator";
+        const char *label = "Äquator";
 
         // Draw a line in the right colour
         cairo_set_source_rgb(s->cairo_draw, s->equator_col.red, s->equator_col.grn, s->equator_col.blu);
@@ -249,7 +249,7 @@ double draw_great_circle_key(chart_config *s, double legend_y_pos) {
 
     // Draw item on legend showing the colour of the ecliptic
     if (s->plot_ecliptic != 0) {
-        const char *label = "Ecliptic Plane";
+        const char *label = "Ekliptik";
 
         // Draw a line in the right colour
         cairo_set_source_rgb(s->cairo_draw, s->ecliptic_col.red, s->ecliptic_col.grn, s->ecliptic_col.blu);
@@ -273,7 +273,7 @@ double draw_great_circle_key(chart_config *s, double legend_y_pos) {
 
     // Draw item on legend showing the colour of the galactic plane
     if (s->plot_galactic_plane != 0) {
-        const char *label = "Galactic Plane";
+        const char *label = "Galaktische Ebene";
 
         // Draw a line in the right colour
         cairo_set_source_rgb(s->cairo_draw, s->galactic_plane_col.red, s->galactic_plane_col.grn,

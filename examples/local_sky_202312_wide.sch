@@ -22,33 +22,36 @@
 
 # Common settings which apply to all the charts we produce
 DEFAULTS
-INCLUDE include_files/colour_scheme_pastel.sch
+INCLUDE include_files/colour_scheme_light_bg.sch
 INCLUDE include_files/meteor_showers_12_december.sch
 coords=alt_az
 grid_coords=alt_az
 show_horizon=1
 horizon_cardinal_points_marker_count=16
 az_central=180
-alt_central=42
-angular_width=120.0
-width=18.0
+alt_central=50
+angular_width=150.0
+width=29.7
 aspect=0.7
 projection=stereographic
-mag_min=4
-dso_mag_min=3
+mag_min=6
+dso_mag_min=6
 star_label_mag_min=2.8
-horizon_latitude=52
-horizon_longitude=0
+horizon_latitude=50
+horizon_longitude=12
 shade_twilight=1
+language=german
+copyright=
+copyright_gap=0
 title=The sky from London at 1:30am on 1 Dec 2023
 julian_date=2460279.5625  # Fri 2023 Dec 1 01:30:00
 
 # Chart at 11pm on 1 Dec 2023
 CHART
-output_filename=output/local_sky_202312_wide.png
+output_filename=/home/cleavr/charts.astroteam-hof.de/current/local_sky_202312_wide.png
 
 CHART
-output_filename=output/local_sky_202312_wide.pdf
+output_filename=/home/cleavr/charts.astroteam-hof.de/current/local_sky_202312_wide.pdf
 
 CHART
-output_filename=output/local_sky_202312_wide.svg
+output_filename=/home/cleavr/charts.astroteam-hof.de/current/local_sky_202312_wide.svg

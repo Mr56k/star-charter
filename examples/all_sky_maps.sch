@@ -33,24 +33,27 @@ constellation_names=1
 mag_min=5.0
 mag_max=0.5
 mag_step=0.5
-dso_mag_min=10
+dso_mag_min=6
 axis_ticks_value_only=1
 plot_equator=1
 plot_galactic_plane=1
 plot_ecliptic=1
+copyright=
+copyright_gap=-1
+language=german
 
 # All-sky chart on a light background
 CHART
 INCLUDE include_files/colour_scheme_light_bg.sch
-output_filename=output/all_sky_light.png
+output_filename=/home/cleavr/charts.astroteam-hof.de/current/all_sky_light.png
 grid_col=0.7,0.7,0.7
 
 # All-sky chart chart on a dark background
 CHART
 INCLUDE include_files/colour_scheme_dark_bg.sch
-output_filename=output/all_sky_dark.png
+output_filename=/home/cleavr/charts.astroteam-hof.de/current/all_sky_dark.png
 
 # All-sky chart chart in pastel colours
 CHART
 INCLUDE include_files/colour_scheme_pastel.sch
-output_filename=output/all_sky_pastel.png
+output_filename=/home/cleavr/charts.astroteam-hof.de/current/all_sky_pastel.png

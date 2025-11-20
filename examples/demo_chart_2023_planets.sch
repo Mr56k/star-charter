@@ -43,6 +43,7 @@ great_circle_key=0
 magnitude_key=0
 show_solar_system=0
 ephemeris_style=side_by_side_with_arrow
+language=german
 
 ephemeris_col=1,1,0.7
 ephemeris_arrow_col=1,1,0.7
@@ -79,7 +80,9 @@ angular_width=140
 aspect=0.4
 mag_size_norm=0.75
 mag_min=4.9
-output_filename=output/demo_chart_2023_mars.png
+copyright=
+copyright_gap=0
+output_filename=/home/cleavr/charts.astroteam-hof.de/current/demo_chart_2023_mars.png
 
 # Remaining ephemerides have more labels
 DEFAULTS
@@ -99,7 +102,7 @@ angular_width=60
 aspect=0.4
 mag_size_norm=0.5
 mag_min=6.8
-output_filename=output/demo_chart_2023_jupiter.png
+output_filename=/home/cleavr/charts.astroteam-hof.de/current/demo_chart_2023_jupiter.png
 
 # Shrink plot size for outermost planets
 DEFAULTS
@@ -116,7 +119,7 @@ angular_width=20
 aspect=0.75
 mag_min=7.6
 mag_size_norm=0.75
-output_filename=output/demo_chart_2023_saturn.png
+output_filename=/home/cleavr/charts.astroteam-hof.de/current/demo_chart_2023_saturn.png
 
 # Chart for Uranus
 CHART
@@ -129,7 +132,7 @@ angular_width=10
 aspect=0.8
 mag_min=9.0
 mag_size_norm=0.5
-output_filename=output/demo_chart_2023_uranus.png
+output_filename=/home/cleavr/charts.astroteam-hof.de/current/demo_chart_2023_uranus.png
 
 # Chart for Neptune
 CHART
@@ -143,4 +146,4 @@ aspect=0.8
 mag_min=9.4
 mag_size_norm=0.75
 star_flamsteed_labels=1
-output_filename=output/demo_chart_2023_neptune.png
+output_filename=/home/cleavr/charts.astroteam-hof.de/current/demo_chart_2023_neptune.png
